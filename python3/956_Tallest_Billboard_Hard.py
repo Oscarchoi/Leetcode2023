@@ -1,7 +1,5 @@
 # 956. Tallest Billboard - Hard
 
-956_Tallest_Billboard_Hard.py
-
 class Solution:
     # return most highest height of mine that has differenet of diff to other's.
     def helper(self, rods: List[int], index, diff, memo) -> int:
